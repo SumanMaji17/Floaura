@@ -48,7 +48,9 @@ export const UserLogin = async (req, res, next) => {
           path: "/api",
           expires: new Date(Date.now() + 1296000000),
           httpOnly: true,
-          // secure: true, // only works on https
+          secure: true, // only works on https
+          sameSite: "none",
+          domain: "floaura.onrender.com",
         })
         .json({ msg: "Login Successfully...", status: true, data: user });
     }
