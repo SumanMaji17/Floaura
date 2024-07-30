@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "categoryCardStatic/cake.jpg",
+    "title": "Cakes"
+  },
+  {
+    "id": 2,
+    "image": "categoryCardStatic/statue.jpg",
+    "title": "Home-Decor"
+  },
+  {
+    "id": 3,
+    "image": "categoryCardStatic/combo.jpg",
+    "title": "Combo"
+  },
+  {
+    "id": 4,
+    "image": "categoryCardStatic/plant.jpg",
+    "title": "Plants"
+  },
+  {
+    "id": 5,
+    "image": "categoryCardStatic/toy.jpg",
+    "title": "Toy"
+  },
+  {
+    "id": 6,
+    "image": "categoryCardStatic/flower.jpg",
+    "title": "Flowers"
+  }
+]

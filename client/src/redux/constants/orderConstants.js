@@ -1,0 +1,6 @@
+export const reducerCases = {
+    FETCH_ORDERS_SUCCESS:"FETCH_ORDERS_SUCCESS",
+    ORDER_ERROR:"ORDER_ERROR",
+    ADD_ORDER_SUCCESS: "ADD_ORDER_SUCCESS",
+  };
+  

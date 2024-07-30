@@ -1,0 +1,4 @@
+export const reducerCases = {
+    SET_ADMIN_INFO: "SET_ADMIN_INFO",
+    SET_ADMIN_PANEL_ERROR:"SET_ADMIN_PANEL_ERROR",
+}

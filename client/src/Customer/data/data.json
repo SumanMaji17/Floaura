@@ -1,0 +1,288 @@
+{
+  "banners": [
+    {
+      "type": "Plants",
+      "images": [
+        "https://flowershut.com/pub/media/images/landing/plant/plant_banner.jpg",
+        "Static/PlantStatic/plant_offer_homepage_fa_desktop.jpg"
+      ]
+    },
+    {
+      "type": "Cakes",
+      "images": [
+        "Static/BirthDay/banner-birthday_homepage_fa_deskto.png",
+        "sliderStatic/flower_birthday_homepage_fa_desktop.png",
+        "Static/BirthDay/banner-chocolate-day-homepage-fa-desktop.png",
+        "Static/BirthDay/banner-tini-cake-homepage-fa-desktop.avif"
+      ]
+    },
+    {
+      "type": "Home",
+      "images": [
+        "sliderStatic/rakhi-homepage-desktop.png",
+        "sliderStatic/overseas-rakhi-homepage-desktop.png",
+        "sliderStatic/anniversary-gift-banners.png",
+        "sliderStatic/flower_birthday_homepage_fa_desktop.png",
+        "sliderStatic/plant-homepage-fa-desktop.png"
+      ]
+    },
+    {
+      "type": "Flowers",
+      "images": ["Static/Flowers/banner-flower_homepage_fa_desktop_13.png"]
+    },
+    {
+      "type": "Combo",
+      "images": ["Static/Combo/banner-gift-hampers_landingpage_fa_desktop.avif"]
+    },
+    {
+      "type": "Corporate Gifts",
+      "images": [
+        "Static/Corporate-Gifts/corporate-banner-desktop.png",
+        "Static/Corporate-Gifts/envmnt-day-desk.png"
+      ]
+    }
+  ],
+  "title": [
+    {
+      "type": "Plants",
+      "titles": {
+        "headTitle": "Online Plants Delivery",
+        "mainTitle": "Same Day Plant Delivery",
+        "subTitle": "A perfect way to send smile!"
+      }
+    },
+    {
+      "type": "Cakes",
+      "titles": {
+        "headTitle": "Online Cakes Delivery",
+        "mainTitle": "Bestseller Cake Online",
+        "subTitle": "Delectably Delicious in Every Layers"
+      }
+    },
+    {
+      "type": "Flowers",
+      "titles": {
+        "headTitle": "Online Flower Delivery",
+        "mainTitle": "Bestseller Flower Online",
+        "subTitle": "A flowery affair for you!"
+      }
+    },
+    {
+      "type": "Combo",
+      "titles": {
+        "headTitle": "Combo & Gift Hampers",
+        "mainTitle": "Best Seller Combo",
+        "subTitle": "A Perfect combo & Gift Hampers!!"
+      }
+    },
+    {
+      "type": "Corporate Gifts",
+      "titles": {
+        "headTitle": "Corporate Gifts Online",
+        "mainTitle": "Best Seller Corporate Gifts Online",
+        "subTitle": "Welcome them with grace & gifts"
+      }
+    }
+  ],
+  "groupData": [
+    {
+      "type": "Cakes",
+      "categoryData": [
+        {
+          "id": 1,
+          "title": "Birthday Cakes",
+          "image": "https://imgcdn.floweraura.com/birthday_cake_1.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Anniversary Cakes",
+          "image": "https://imgcdn.floweraura.com/anniversary_cake_3.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Designer Cakes",
+          "image": "Static/BirthDay/designer_cake_8.png"
+        },
+        {
+          "id": 4,
+          "title": "Regular Cakes",
+          "image": "Static/BirthDay/regular_cake_1-replaced-womens-day_0.png"
+        },
+        {
+          "id": 5,
+          "title": "Photo Cakes",
+          "image": "Static/BirthDay/photo_cake_12.png"
+        },
+        {
+          "id": 6,
+          "title": "Eggless Cakes",
+          "image": "Static/BirthDay/eggless-cakes_0.png"
+        }
+      ]
+    },
+    {
+      "type": "Home",
+      "categoryData": [
+        {
+          "id": 1,
+          "image": "categoryCardStatic/cake.jpg",
+          "title": "Cakes"
+        },
+        {
+          "id": 2,
+          "image": "categoryCardStatic/statue.jpg",
+          "title": "Home-Decor"
+        },
+        {
+          "id": 3,
+          "image": "categoryCardStatic/combo.jpg",
+          "title": "Combo"
+        },
+        {
+          "id": 4,
+          "image": "categoryCardStatic/plant.jpg",
+          "title": "Plants"
+        },
+        {
+          "id": 5,
+          "image": "categoryCardStatic/toy.jpg",
+          "title": "Toy"
+        },
+        {
+          "id": 6,
+          "image": "categoryCardStatic/flower.jpg",
+          "title": "Flowers"
+        }
+      ]
+    },
+    {
+      "type": "Plants",
+      "categoryData": [
+        {
+          "id": 1,
+          "title": "Air Puryfying Plants",
+          "image": "Static/PlantStatic/Air_Purifying_Plants_0.png"
+        },
+        {
+          "id": 2,
+          "title": "Plants for Decor",
+          "image": "Static/PlantStatic/decor_plant_1.png"
+        },
+        {
+          "id": 3,
+          "title": "Lucky Plants",
+          "image": "Static/PlantStatic/lucky_plant_0.png"
+        },
+        {
+          "id": 4,
+          "title": "Money Plants",
+          "image": "Static/PlantStatic/money_plant_0.png"
+        }
+      ]
+    },
+    {
+      "type": "Flowers",
+      "categoryData": [
+        {
+          "id": 1,
+          "title": "Rose Bouquet",
+          "image": "Static/Flowers/mother-day-flower-card-image_0.png"
+        },
+        {
+          "id": 2,
+          "title": "Flower in Vase",
+          "image": "Static/Flowers/vase_0_3.png"
+        },
+        {
+          "id": 3,
+          "title": "Birthday",
+          "image": "Static/Flowers/birthday_44.png"
+        },
+        {
+          "id": 4,
+          "title": "Anniversary",
+          "image": "Static/Flowers/anniversary_38.png"
+        },
+        {
+          "id": 5,
+          "title": "Love and Affection",
+          "image": "Static/Flowers/love_and_romance_6.png"
+        },
+        {
+          "id": 6,
+          "title": "Flower Gifts Boxex",
+          "image": "Static/Flowers/box_0.png"
+        }
+      ]
+    },
+    {
+      "type": "Combo",
+      "categoryData": [
+        {
+          "id": 1,
+          "title": "Flower & Cakes Combo",
+          "image": "Static/Combo/flower-cake-combo_0.png"
+        },
+        {
+          "id": 2,
+          "title": "Cakes Combo",
+          "image": "Static/Combo/cake_combo_0.png"
+        },
+        {
+          "id": 3,
+          "title": "Flower Combo",
+          "image": "Static/Combo/flower_combo_0.png"
+        },
+        {
+          "id": 4,
+          "title": "Plant Combo",
+          "image": "Static/Combo/plant_combo_0.png"
+        },
+        {
+          "id": 5,
+          "title": "Chocolate Combo",
+          "image": "Static/Combo/chocolate_combo_0_1.png"
+        },
+        {
+          "id": 6,
+          "title": "Premium Hampers",
+          "image": "Static/Combo/combo_28.png"
+        }
+      ]
+    },{
+      "type":"Corporate Gifts",
+      "categoryData":[
+        {
+          "id":1,
+          "title":"Environment Day",
+          "image":"Static/Corporate-Gifts/envmnt-day-card.png"
+        },
+        {
+          "id":2,
+          "title":"Gourmeet Hamper",
+          "image":"Static/Corporate-Gifts/gourmet-hamper.png"
+        },
+        {
+          "id":3,
+          "title":"Eletronic & Gadgets",
+          "image":"Static/Corporate-Gifts/electronics.png"
+        },
+        {
+          "id":4,
+          "title":"Office & Desktop Accessories",
+          "image":"Static/Corporate-Gifts/accessories.png"
+        },
+        {
+          "id":5,
+          "title": "Flower & Cakes Combo",
+          "image": "Static/Combo/flower-cake-combo_0.png"
+        },
+        {
+          "id":6,
+          "title": "Rose Bouquet",
+          "image": "Static/Flowers/mother-day-flower-card-image_0.png"
+        }
+      ]
+    }
+  ]
+}
