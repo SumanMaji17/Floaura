@@ -1,4 +1,4 @@
-export const HOST = "http://localhost:3005";
+export const HOST = process.env.REACT_APP_API || "http://localhost:3005";
 
 //--------------------Admin Routes-------------------------------
 export const ADMIN_ROUTES = `${HOST}/api/admin`;

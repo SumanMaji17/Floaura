@@ -12,6 +12,7 @@ import { CreateOrder } from "./controllers/OrderController.js";
 
 config();
 const PORT = process.env.PORT || 3005;
+const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:3000"
 const app = express();
 app.post("/webhook", raw({ type: "application/json" }), CreateOrder);
 
