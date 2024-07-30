@@ -101,8 +101,8 @@ export const CreatePayment = async (req, res, next) => {
       },
       mode: "payment",
       success_url:
-        `http://${CLIENT_URL}/success?sessionId={CHECKOUT_SESSION_ID}`,
-      cancel_url: `http://${CLIENT_URL}/cancel`,
+        `${CLIENT_URL}/success?sessionId={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${CLIENT_URL}/cancel`,
     });
 
     res.json({ id: session.id });
