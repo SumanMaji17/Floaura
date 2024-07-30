@@ -105,6 +105,9 @@ export const CreatePayment = async (req, res, next) => {
       cancel_url: `${CLIENT_URL}/cancel`,
     });
 
+    console.log("Success URL:", `${CLIENT_URL}/success?sessionId={CHECKOUT_SESSION_ID}`);
+    console.log("Cancel URL:", `${CLIENT_URL}/cancel`);
+
     res.json({ id: session.id });
   } catch (err) {
     next(err);
