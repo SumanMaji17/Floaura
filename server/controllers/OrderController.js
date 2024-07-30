@@ -4,6 +4,7 @@ import { config } from "dotenv";
 
 config();
 
+const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:3000"
 const stripeInstance = stripe(process.env.STRIPE_SECRET_KEY);
 
 export const CreatePayment = async (req, res, next) => {
@@ -100,8 +101,8 @@ export const CreatePayment = async (req, res, next) => {
       },
       mode: "payment",
       success_url:
-        "http://localhost:3000/success?sessionId={CHECKOUT_SESSION_ID}",
-      cancel_url: "http://localhost:3000/cancel",
+        `http://${CLIENT_URL}/success?sessionId={CHECKOUT_SESSION_ID}`,
+      cancel_url: `http://${CLIENT_URL}/cancel`,
     });
 
     res.json({ id: session.id });
