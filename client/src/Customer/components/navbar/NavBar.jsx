@@ -22,7 +22,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { motion, useAnimation } from "framer-motion";
 import { logout } from "../../../redux/actions/userAction";
 
-
 export default function NavBar() {
   const navigate = useNavigate();
   const totalItems = useSelector((state) => state.cart.totalItems);
@@ -74,7 +73,12 @@ export default function NavBar() {
         className=" bg-cyan-900 z-20 text-white min-h-[14vh] flex min-w-full items-center justify-between px-24 fixed "
       >
         <div className=" flex items-center">
-          <span className=" cursor-pointer">FLOAURA</span>
+          <img
+            src="Floaura.png"
+            alt="floaura"
+            className="w-[100px]"
+            onClick={() => navigate("/")}
+          />
           <div
             className=" flex px-10 items-center gap-1 cursor-pointer"
             onClick={() => setOpenDeliveryBox(true)}

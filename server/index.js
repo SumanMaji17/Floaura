@@ -11,6 +11,7 @@ import cookieParser from "cookie-parser";
 import { CreateOrder } from "./controllers/OrderController.js";
 
 config();
+const PORT = process.env.PORT || 3005;
 const app = express();
 app.post("/webhook", raw({ type: "application/json" }), CreateOrder);
 
@@ -38,6 +39,6 @@ app.use("/api/order", OrderRoutes);
 //   res.status(200).json({ message: "Server is up and running!" });
 // });
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server started on port ${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
 });
