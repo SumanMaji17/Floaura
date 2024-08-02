@@ -72,7 +72,7 @@ export const contactUsEmail = (
     
     <body>
         <div class="container">
-          <a href="#"><img class="logo" src="https://img.favpng.com/21/6/8/computer-icons-hyperlink-png-favpng-XDNs4gxaLhEmqiADzNrdH8Umw.jpg"
+          <a href="#"><img class="logo" src="https://firebasestorage.googleapis.com/v0/b/floaura-c0f69.appspot.com/o/images%2FFloaura.png?alt=media&token=21c3e73a-9fd0-41b4-995b-453921f83fd8"
                     alt="Floaura"></a>
             <div class="message">Contact Form Confirmation</div>
             <div class="body">

@@ -164,7 +164,7 @@ export const OtpGenerator = async (req, res, next) => {
     const mailOptions = {
       from: "FLOAURA",
       to: email,
-      subject: "Email Subject",
+      subject: "OTP Verification",
       html: OtpTemplate(otpEmail),
     };
 

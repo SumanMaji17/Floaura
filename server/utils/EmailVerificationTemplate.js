@@ -71,7 +71,7 @@ export const OtpTemplate = (otp) => {
 		<div class="container">
 	
             <img class="logo"
-            src="https://img.favpng.com/21/6/8/computer-icons-hyperlink-png-favpng-XDNs4gxaLhEmqiADzNrdH8Umw.jpg" alt="Floaura Logo">
+            src="https://firebasestorage.googleapis.com/v0/b/floaura-c0f69.appspot.com/o/images%2FFloaura.png?alt=media&token=21c3e73a-9fd0-41b4-995b-453921f83fd8" alt="Floaura Logo">
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>
