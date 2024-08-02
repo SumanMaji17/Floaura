@@ -24,12 +24,15 @@ router.post("/user-signup", UserSignUp);
 router.get("/user-profile", UserCheck, UserProfile);
 router.post("/otp-generate", OtpGenerator);
 router.post("/otp-verify", OtpVerification);
-router.post("/create-review",UserCheck,CreateReview);
-router.get("/get-all-reviews",GetAllReviews);
-router.post("/delete-review",UserCheck,DeleteReview);
-router.post("/edit-review",UserCheck,EditReview);
-router.post("/sent-email",SentEmail);
-router.post("/edit-profile",UserCheck,EditProfile);
-router.get("/log-out",UserCheck,LogOut);
+router.post("/create-review", UserCheck, CreateReview);
+router.get("/get-all-reviews", GetAllReviews);
+router.post("/delete-review", UserCheck, DeleteReview);
+router.post("/edit-review", UserCheck, EditReview);
+router.post("/sent-email", SentEmail);
+router.post("/edit-profile", UserCheck, EditProfile);
+router.get("/log-out", UserCheck, LogOut);
+router.get("/protected", UserCheck, (req, res) => {
+  res.json({ msg: "Access granted to protected route", status: "true" });
+});
 
 export default router;

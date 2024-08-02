@@ -77,7 +77,7 @@ function App() {
             <Route
               path="/success"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <PaymentSucces />
                 </ProtectedRoute>
               }
@@ -85,7 +85,7 @@ function App() {
             <Route
               path="/cancel"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <PaymentFail />
                 </ProtectedRoute>
               }
@@ -94,7 +94,7 @@ function App() {
             <Route
               path="/my-orders"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <Order />
                 </ProtectedRoute>
               }
@@ -102,7 +102,7 @@ function App() {
             <Route
               path="/order-details"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute >
                   <OrderDetails />
                 </ProtectedRoute>
               }
@@ -110,7 +110,7 @@ function App() {
             <Route
               path="/my-addresses"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <MyAddresses />
                 </ProtectedRoute>
               }
@@ -118,7 +118,7 @@ function App() {
             <Route
               path="/add-address"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <AddEditAddress />
                 </ProtectedRoute>
               }
@@ -129,7 +129,7 @@ function App() {
             <Route
               path="/create-review"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <CreateReview />
                 </ProtectedRoute>
               }
@@ -137,15 +137,15 @@ function App() {
             <Route
               path="/my-reviews"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
-                  <AllReviews />{" "}
+                <ProtectedRoute>
+                  <AllReviews />
                 </ProtectedRoute>
               }
             />
             <Route
               path="/edit-review"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <EditReview />
                 </ProtectedRoute>
               }
@@ -153,7 +153,7 @@ function App() {
             <Route
               path="/edit-profile"
               element={
-                <ProtectedRoute isLoggedIn={userInfo}>
+                <ProtectedRoute>
                   <EditProfile />
                 </ProtectedRoute>
               }
@@ -163,7 +163,7 @@ function App() {
           <Route
             path="/check-out"
             element={
-              <ProtectedRoute isLoggedIn={userInfo}>
+              <ProtectedRoute>
                 <CheckOut />
               </ProtectedRoute>
             }

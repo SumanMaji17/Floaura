@@ -36,6 +36,7 @@ export const EDIT_REVIEW = `${USER_ROUTES}/edit-review`
 export const SENT_EMAIL = `${USER_ROUTES}/sent-email`
 export const EDIT_PROFILE = `${USER_ROUTES}/edit-profile`
 export const LOG_OUT= `${USER_ROUTES}/log-out`
+export const PROTECTED = `${USER_ROUTES}/protected`
 
 //------------------------Address Routes--------------------------
 export const ADDRESS_ROUTES = `${HOST}/api/address`;
